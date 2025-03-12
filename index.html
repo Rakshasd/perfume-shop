@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">|| पावित्रिका ||</div>
+        <div class="header-middle">|| The Pure Essence ||</div>
+        <div class="header-bottom"> 
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <div class="search-container">
+                        <input type="text" id="search-bar" placeholder="Search perfumes..." onkeyup="searchProducts()">
+                        <button onclick="searchProducts()">🔍</button>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    </section>
+    <BR></BR>
+    <section class="about">
+        <h2>About Us</h2>
+        <p>Welcome to पावित्रिका,where fragrance meets elegance.<BR></BR> We offer a curated selection of luxurious perfumes that enhance your personality and leave a lasting impression. Our mission is to bring you the finest scents, crafted with passion and quality.
+        Explore our exclusive collection and find your signature scent today.</p>
+    </section>
+    <BR></BR>
+    <section id="products">
+        <h2>Our Perfume Collection</h2>
+        <div class="product">
+            <img src="Lost_Cherry_Img.jpg" alt="Lost Cherry" width="300">
+            <h3>Lost Cherry</h3>
+            <p>$49.99</p>
+        </div>
+        <div class="product">
+            <img src="Rose_Vanilla_Img.jpg" alt="Rose Vanilla" width="300">
+            <h3>Rose Vanilla</h3>
+            <p>$59.99</p>
+        </div>
+        <div class="product">
+            <img src="Bellavita_Img.jpg" alt="Bella vita" width="300">
+            <h3>Bella vita</h3>
+            <p>$19.99</p>
+        </div>
+        <div class="product">
+            <img src="Sweet_Heart_Img.jpg" alt="Sweet Heart" width="300">
+            <h3>Sweet Heart</h3>
+            <p>$89.99</p>
+        </div>
+
+        <button onclick="showAlert()">Shop Now</button>
+    </section>
+<BR></BR>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name"><br><br>
+            <input type="contact" placeholder="Your Contact Info."><br><br>
+            <input type="email" placeholder="Your Email"><br><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Perfume Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
